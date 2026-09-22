@@ -1,0 +1,10 @@
+# Dependencias principales para el Laboratorio N°1: Formateo y Scrambler DVB-S
+# Comunicación Digital Avanzada (UNRC)
+
+numpy>=1.24.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+jupyterlab>=4.0.0
+nbformat>=5.9.0
+nbconvert>=7.0.0
+ipykernel>=6.20.0

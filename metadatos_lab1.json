@@ -1,0 +1,41 @@
+{
+    "laboratorio": "Laboratorio N°1: Formateo de Información y Ecualización del Histograma",
+    "estandar": "DVB-S (ETSI EN 300 421)",
+    "polinomio_prbs": "1 + X^14 + X^15",
+    "semilla_dvb_s": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "fuente_discreta_texto": {
+        "archivo_salida": "secuencia_texto_lab1.npy",
+        "longitud_bits": 296,
+        "codificacion": "ASCII 8-bit MSB-first",
+        "mensaje_origen": "Hola, este es un test de comunicacion",
+        "H_raw": 0.9973308430460006,
+        "H_scrambled": 0.9983857186501095
+    },
+    "fuente_analogica_audio": {
+        "archivo_salida": "secuencia_audio_lab1.npy",
+        "longitud_bits": 303438,
+        "frecuencia_muestreo_hz": 8000,
+        "bits_por_muestra_k": 6,
+        "niveles_cuantificacion_L": 64,
+        "compansion": "Ley-µ (µ = 255.0)",
+        "sqnr_db": 25.902661390750794,
+        "H_raw": 0.9991138916025621,
+        "H_scrambled": 0.9999993411285781
+    }
+}
